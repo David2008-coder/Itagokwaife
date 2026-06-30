@@ -21,31 +21,31 @@ const menuItems = [
   },
   {
     id: 2,
-    title: "Itago Fish Melt",
+    title: "ITAGO Fish Melt",
     desc: "Tender local fish cuts smothered in a rich fiery chili base paired with ripe sweet plantains.",
     img: "grilled-fish.png" // Richly spiced chili and pepper-coated presentation
   },
   {
     id: 3,
-    title: "Itago Marinated Chicken",
+    title: "ITAGO Marinated Chicken",
     desc: "Juicy poultry quarters infused with rich Nigerian herbs, seared slow over charcoal blocks.",
     img: "Flame-Marinated-Chickens.jpg" // Deeply browned, open-flame grilled chicken
   },
   {
     id: 4,
-    title: "Itago Smoky Turkey",
+    title: "ITAGO Smoky Turkey",
     desc: "Boldly tender turkey legs, basted repeatedly with a local spice blend for extreme depth.",
     img: "Smoky-Local-Turkey.jpeg" // Highly seasoned roasted poultry cuts
   },
   {
     id: 5,
-    title: "Itago  Barbecue",
+    title: "ITAGO  Barbecue",
     desc: "An array of char-kissed choice meats arranged nicely with custom fries and real house pepper dip.",
     img: "Signature-Barbecue-Pack.avif" // Charcoal flame-kissed mixed meat pack arrangement
   },
   {
     id: 6,
-    title: "Itago Loaded Shawarma",
+    title: "ITAGO Loaded Shawarma",
     desc: "Fresh warm flatbread double-wrapped with slow-shaved rotisserie meats, sausage and cream base.",
     img: "Ultimate-Loaded-Shawarma.jpeg" // Authentic tightly-wrapped street-style shawarma
   }
