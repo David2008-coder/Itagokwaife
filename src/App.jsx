@@ -17,37 +17,37 @@ const menuItems = [
     id: 1,
     title: "Itago Grilled Fish",
     desc: "Whole fresh croaker, perfectly charred and basted in our house aromatic sweet-pepper glaze.",
-    img: "src/assets/scrilled pish.jpeg" // Charcoal-grilled fish with pepper glaze style
+    img: "scrilled-pish.jpeg" // Charcoal-grilled fish with pepper glaze style
   },
   {
     id: 2,
     title: "Itago Fish Melt",
     desc: "Tender local fish cuts smothered in a rich fiery chili base paired with ripe sweet plantains.",
-    img: "src/assets/grilled-fish.png" // Richly spiced chili and pepper-coated presentation
+    img: "grilled-fish.png" // Richly spiced chili and pepper-coated presentation
   },
   {
     id: 3,
     title: "Itago Marinated Chicken",
     desc: "Juicy poultry quarters infused with rich Nigerian herbs, seared slow over charcoal blocks.",
-    img: "src/assets/Flame-Marinated-Chickens.jpg" // Deeply browned, open-flame grilled chicken
+    img: "Flame-Marinated-Chickens.jpg" // Deeply browned, open-flame grilled chicken
   },
   {
     id: 4,
     title: "Itago Smoky Turkey",
     desc: "Boldly tender turkey legs, basted repeatedly with a local spice blend for extreme depth.",
-    img: "src/assets/Smoky Local Turkey.jpeg" // Highly seasoned roasted poultry cuts
+    img: "Smoky-Local-Turkey.jpeg" // Highly seasoned roasted poultry cuts
   },
   {
     id: 5,
     title: "Itago  Barbecue",
     desc: "An array of char-kissed choice meats arranged nicely with custom fries and real house pepper dip.",
-    img: "src/assets/Signature Barbecue Pack.avif" // Charcoal flame-kissed mixed meat pack arrangement
+    img: "Signature-Barbecue-Pack.avif" // Charcoal flame-kissed mixed meat pack arrangement
   },
   {
     id: 6,
     title: "Itago Loaded Shawarma",
     desc: "Fresh warm flatbread double-wrapped with slow-shaved rotisserie meats, sausage and cream base.",
-    img: "src/assets/Ultimate-Loaded-Shawarma.jpeg" // Authentic tightly-wrapped street-style shawarma
+    img: "Ultimate-Loaded-Shawarma.jpeg" // Authentic tightly-wrapped street-style shawarma
   }
 ];
 
@@ -70,7 +70,7 @@ const reviews = [
       {/* --- NAVBAR --- */}
 <nav className="navbar">
   <div className="logo-container" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-    <div className="logo-circle"><img src="src/assets/logo.png" width="40px" height="40px" style={{borderRadius: '50%'}} alt="" /></div>
+    <div className="logo-circle"><img src="logo.png" width="40px" height="40px" style={{borderRadius: '50%'}} alt="" /></div>
     <div className="logo-text-wrapper">
       <span className="logo-text-main">Itagokwaife</span>
       <span className="logo-text-sub">Grillspot</span>
@@ -223,12 +223,12 @@ const reviews = [
         <p className="section-subtitle-center">An organic view into daily workspace cooking and customer favorites.</p>
         
         <div className="gallery-grid">
-          <div className="gallery-item tall" style={{backgroundImage: `url('src/assets/gessturkey.jpeg')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('src/assets/letsgofish.jpeg')`}}></div>
-          <div className="gallery-item tall" style={{backgroundImage: `url('src/assets/Signature Barbecue Pack.avif')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('src/assets/scrilled pish.jpeg')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('src/assets/shawale.jpeg')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('src/assets/scrilled fish.jpeg')`}}></div>
+          <div className="gallery-item tall" style={{backgroundImage: `url('gessturkey.jpeg')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('letsgofish.jpeg')`}}></div>
+          <div className="gallery-item tall" style={{backgroundImage: `url('Signature-Barbecue-Pack.avif')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('scrilled-pish.jpeg')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('shawale.jpeg')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('scrilled-fish.jpeg')`}}></div>
         </div>
       </section>
 
