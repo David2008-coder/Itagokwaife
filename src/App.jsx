@@ -133,7 +133,7 @@ const reviews = [
       {/* --- ABOUT / STORY SECTION --- */}
       <section className="story-section" id="about">
         <div className="story-image-container">
-          <div className="story-image-placeholder">
+          <div className="story-image-placeholder" >
             <span className="story-neon-text">Itagokwaife</span>
           </div>
         </div>
