@@ -72,7 +72,7 @@ const reviews = [
   <div className="logo-container" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
     <div className="logo-circle"><img src="logo.png" width="40px" height="40px" style={{borderRadius: '50%'}} alt="" /></div>
     <div className="logo-text-wrapper">
-      <span className="logo-text-main">Itagokwaife</span>
+      <span className="logo-text-main">itagokwaife</span>
       <span className="logo-text-sub">Grillspot</span>
     </div>
   </div>
@@ -110,7 +110,7 @@ const reviews = [
           </div>
           <h1 className="hero-title">Taste the <span className="highlight-text">Art</span> of Premium Grilling</h1>
           <p className="hero-subtitle">
-            At Itagokwaife Grillspot, every meal is prepared with passion, premium fresh selection, and authentic Nigerian flavor profiles — ranging from crisp grilled fish to deeply seasoned local turkey lines.
+            At itagokwaife Grillspot, every meal is prepared with passion, premium fresh selection, and authentic Nigerian flavor profiles — ranging from crisp grilled fish to deeply seasoned local turkey lines.
           </p>
           <div className="hero-buttons">
             <button className="btn-whatsapp" onClick={() => window.open('https://wa.me/2348089811603', '_blank')}>
@@ -134,14 +134,14 @@ const reviews = [
       <section className="story-section" id="about">
         <div className="story-image-container">
           <div className="story-image-placeholder" >
-            <span className="story-neon-text">Itagokwaife</span>
+            <span className="story-neon-text">itagokwaife</span>
           </div>
         </div>
         <div className="story-content">
           <div className="section-badge">Our Legacy</div>
           <h2 className="section-title">Where Supreme Taste Meets <span className="highlight-text">Tradition</span></h2>
           <p>
-            Welcome to Itagokwaife Grillspot — an intentional celebration of flame-kissed premium protein execution. We specialize across ultra-fresh grilled catches, rustic local spices, chicken cuts, and premium urban street selections designed to deliver peak luxury flavor.
+            Welcome to itagokwaife Grillspot — an intentional celebration of flame-kissed premium protein execution. We specialize across ultra-fresh grilled catches, rustic local spices, chicken cuts, and premium urban street selections designed to deliver peak luxury flavor.
           </p>
           <p>
             Whether it is an intimate late-night dining run or high-volume festive event packages, we execute each box using hand-selected ingredients and high-grade slow pit fires. Flavor isn't arbitrary here; it is our heritage.
@@ -190,7 +190,7 @@ const reviews = [
       {/* --- FEATURES SECTION --- */}
       <section className="features-section">
         <div className="section-badge-center">The Standard</div>
-        <h2 className="section-title-center">The Itagokwaife <span className="highlight-text">Difference</span></h2>
+        <h2 className="section-title-center">The itagokwaife <span className="highlight-text">Difference</span></h2>
         
         <div className="features-grid">
           <div className="feature-card">
@@ -251,7 +251,7 @@ const reviews = [
       {/* --- INSTAGRAM CTA SECTION --- */}
       <section className="instagram-section">
         <div className="insta-container">
-          <div className="insta-badge">@ITAGOKWAIFE_GRILLSPOT</div>
+          <div className="insta-badge">@itagokwaife_GRILLSPOT</div>
           <h2>Follow Our <span className="highlight-text">Food Journey</span></h2>
           <p>Join our thriving digital community for daily flame uploads, localized seasonal drop offers, and real-time operations announcements.</p>
           <button className="btn-insta" onClick={() => window.open('https://instagram.com', '_blank')}>
@@ -305,7 +305,7 @@ const reviews = [
               allowFullScreen="" 
               loading="lazy" 
               referrerPolicy="no-referrer-when-downgrade"
-              title="Itagokwaife Core Business Coordinates"
+              title="itagokwaife Core Business Coordinates"
             ></iframe>
           </div>
         </div>
@@ -318,7 +318,7 @@ const reviews = [
             <div className="logo-container">
               <div className="logo-circle"></div>
               <div className="logo-text-wrapper">
-                <span className="logo-text-main">Itagokwaife</span>
+                <span className="logo-text-main">itagokwaife</span>
                 <span className="logo-text-sub">Grillspot</span>
               </div>
             </div>
@@ -356,7 +356,7 @@ const reviews = [
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; 2026 Itagokwaife Grillspot. All structural rights protected globally.</p>
+          <p>&copy; 2026 itagokwaife Grillspot. All structural rights protected globally.</p>
           <p>Premium Culinary Digital Architecture.</p>
         </div>
       </footer>
