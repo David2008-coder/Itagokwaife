@@ -17,7 +17,7 @@ const menuItems = [
     id: 1,
     title: "Itago Grilled Fish",
     desc: "Whole fresh croaker, perfectly charred and basted in our house aromatic sweet-pepper glaze.",
-    img: "scrilled-pish.jpeg" // Charcoal-grilled fish with pepper glaze style
+    img: "fishthree.jpeg" // Charcoal-grilled fish with pepper glaze style
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const menuItems = [
     id: 6,
     title: "ITAGO Loaded Shawarma",
     desc: "Fresh warm flatbread double-wrapped with slow-shaved rotisserie meats, sausage and cream base.",
-    img: "Ultimate-Loaded-Shawarma.jpeg" // Authentic tightly-wrapped street-style shawarma
+    img: "itago-sharwa.png" // Authentic tightly-wrapped street-style shawarma
   }
 ];
 
@@ -70,13 +70,16 @@ const reviews = [
       {/* --- NAVBAR --- */}
 <nav className="navbar">
   <div className="logo-container" onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}>
-    <div className="logo-circle"><img src="logo.png" width="40px" height="40px" style={{borderRadius: '50%'}} alt="" /></div>
+    <div className="logo-circle">
+      <img src="logo.png" width="40px" height="40px" style={{borderRadius: '50%'}} alt="Itagokwaife Grillspot" />
+    </div>
     <div className="logo-text-wrapper">
       <span className="logo-text-main">itagokwaife</span>
       <span className="logo-text-sub">Grillspot</span>
     </div>
   </div>
 
+  {/* Hamburger Menu - Styled with position absolute in CSS for perfect top-right placement */}
   <div className={`hamburger ${isMenuOpen ? 'active' : ''}`} onClick={toggleMenu}>
     <span className="bar"></span>
     <span className="bar"></span>
@@ -225,10 +228,10 @@ const reviews = [
         <div className="gallery-grid">
           <div className="gallery-item tall" style={{backgroundImage: `url('gessturkey.jpeg')`}}></div>
           <div className="gallery-item" style={{backgroundImage: `url('letsgofish.jpeg')`}}></div>
-          <div className="gallery-item tall" style={{backgroundImage: `url('Signature-Barbecue-Pack.avif')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('scrilled-pish.jpeg')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('shawale.jpeg')`}}></div>
-          <div className="gallery-item" style={{backgroundImage: `url('scrilled-fish.jpeg')`}}></div>
+          <div className="gallery-item tall" style={{backgroundImage: `url('fishitago.png')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('fishthree.jpeg')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('itago-sharwa.png')`}}></div>
+          <div className="gallery-item" style={{backgroundImage: `url('fishtwo.png')`}}></div>
         </div>
       </section>
 
