@@ -575,6 +575,7 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 25px;
+  margin-bottom: 60px;
 }
 
 .review-card {
@@ -604,6 +605,132 @@ body {
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.5px;
+}
+
+/* --- WRITE A REVIEW FORM --- */
+.review-form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.review-form-card {
+  background-color: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 24px;
+  padding: clamp(30px, 5vw, 50px);
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.35);
+}
+
+.review-form-card h3 {
+  font-size: 1.6rem;
+  font-weight: 800;
+  margin-bottom: 8px;
+  letter-spacing: -0.3px;
+}
+
+.review-form-subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+
+.review-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+  background-color: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--card-border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  color: #fff;
+  font-size: 0.95rem;
+  font-family: inherit;
+  resize: vertical;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-gold);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.form-error {
+  color: var(--primary-red);
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.star-picker {
+  display: flex;
+  gap: 8px;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.star-picker-item {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.15);
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.star-picker-item:hover {
+  transform: scale(1.15);
+}
+
+.star-picker-item.filled {
+  color: var(--accent-gold);
+}
+
+.btn-submit-review {
+  background-color: var(--primary-red);
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 25px;
+  font-weight: 700;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 15px rgba(230, 28, 21, 0.2);
+}
+
+.btn-submit-review:hover {
+  background-color: var(--primary-red-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(230, 28, 21, 0.4);
+}
+
+.review-success-msg {
+  color: var(--accent-gold);
+  font-weight: 700;
+  font-size: 0.95rem;
+  text-align: center;
 }
 
 /* --- INSTAGRAM CTA --- */
@@ -987,4 +1114,10 @@ body {
   .gallery-grid { grid-template-columns: 1fr; }
   .contact-action-buttons { flex-direction: column; }
   .contact-action-buttons button { width: 100%; justify-content: center; }
+  .review-form-card { padding: 28px 20px; }
 }
+
+/* .whatsapp-floating svg {
+  font-size: 30px;
+  color: white;
+} */
